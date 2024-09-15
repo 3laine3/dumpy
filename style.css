@@ -97,6 +97,20 @@ main{
     background-color: #f0f0f0;
 }
 
+button {
+  background-color: gray;
+  color: white;
+  font-family: inherit; /* Uses the default font of your site */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
 /* Adding text posts */
 form{
     background-color: rgb(177, 177, 177);
